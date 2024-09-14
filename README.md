@@ -1,7 +1,7 @@
 # Company-Count-Application
 This project is a Django-based web application that includes features such as data upload, query builder, user management, and user authentication. It integrates with PostgreSQL as the database and utilizes Bootstrap for front-end design.
 
-# Features
+## Features
 File Upload: Allows users to upload CSV files and process them.  
 Query Builder: Users can search and filter data based on multiple criteria.   
 User Management: View, add, and delete users.   
