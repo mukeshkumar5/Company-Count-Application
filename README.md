@@ -14,6 +14,10 @@ PostgreSQL
 pip (Python package manager)     
 Git   
 
+## Clone the Repository            
+
+## Set Up a Virtual Environment    
+
 ## Install Dependencies
 pip install -r requirements.txt
 
