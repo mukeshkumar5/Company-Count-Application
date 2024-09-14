@@ -2,18 +2,17 @@
 This project is a Django-based web application that includes features such as data upload, query builder, user management, and user authentication. It integrates with PostgreSQL as the database and utilizes Bootstrap for front-end design.
 
 # Features
-File Upload: Allows users to upload CSV files and process them.
-Query Builder: Users can search and filter data based on multiple criteria.
-User Management: View, add, and delete users.
-Authentication: Login and logout functionality.
+File Upload: Allows users to upload CSV files and process them.  
+Query Builder: Users can search and filter data based on multiple criteria.   
+User Management: View, add, and delete users.   
+Authentication: Login and logout functionality.   
 
 # Prerequisites
-Ensure you have the following installed on your system:
-
-Python 3.9 or above
-PostgreSQL
-pip (Python package manager)
-Git
+Ensure you have the following installed on your system:    
+Python 3.9 or above     
+PostgreSQL      
+pip (Python package manager)     
+Git   
 
 # Install Dependencies
 pip install -r requirements.txt
