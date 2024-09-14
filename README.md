@@ -18,16 +18,16 @@ Git
 pip install -r requirements.txt
 
 # Update the DATABASES configuration in your settings.py file with your database credentials
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'your_db_name',
-        'USER': 'your_db_user',
-        'PASSWORD': 'your_db_password',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+DATABASES = {   
+    'default': {   
+        'ENGINE': 'django.db.backends.postgresql',    
+        'NAME': 'your_db_name',    
+        'USER': 'your_db_user',    
+        'PASSWORD': 'your_db_password',    
+        'HOST': 'localhost',    
+        'PORT': '5432',    
+    }   
+}    
 
 # Migrate the Database
 python manage.py migrate
