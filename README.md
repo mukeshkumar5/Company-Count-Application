@@ -7,17 +7,17 @@ Query Builder: Users can search and filter data based on multiple criteria.
 User Management: View, add, and delete users.   
 Authentication: Login and logout functionality.   
 
-# Prerequisites
+## Prerequisites
 Ensure you have the following installed on your system:    
 Python 3.9 or above     
 PostgreSQL      
 pip (Python package manager)     
 Git   
 
-# Install Dependencies
+## Install Dependencies
 pip install -r requirements.txt
 
-# Update the DATABASES configuration in your settings.py file with your database credentials
+## Update the DATABASES configuration in your settings.py file with your database credentials
 DATABASES = {   
     'default': {   
         'ENGINE': 'django.db.backends.postgresql',    
@@ -29,19 +29,19 @@ DATABASES = {
     }   
 }    
 
-# Migrate the Database
+## Migrate the Database
 python manage.py migrate
 
-# Create a Superuser
+## Create a Superuser
 python manage.py createsuperuser
 
-# Run the Development Server
+## Run the Development Server
 python manage.py runserver
 
-# Access the Admin Interface
+## Access the Admin Interface
 http://127.0.0.1:8000/admin/
 
-#  Access the login Interface
+##  Access the login Interface
 http://127.0.0.1:8000/login/
 
 
